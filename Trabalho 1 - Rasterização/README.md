@@ -15,12 +15,12 @@
 </ol>
 
 <h2>Rasterização</h2> 
-<p> &nbsp;&nbsp; O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um <a href="https://github.com/capagot/icg/tree/master/mygl_framwork">framework</a> que simula o acesso direto à memória de vídeo. </p>
-<p> &nbsp;&nbsp; Foram implementadas 3 funções baseadas no algoritmo de <b>Bresenham</b>, para rasterização de pontos, linhas e para criação de um triângulo. </p>
+<p>  O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um <a href="https://github.com/capagot/icg/tree/master/mygl_framwork">framework</a> que simula o acesso direto à memória de vídeo. </p>
+<p> Foram implementadas 3 funções baseadas no algoritmo de <b>Bresenham</b>, para rasterização de pontos, linhas e para criação de um triângulo. </p>
 
 <h3>1.PutPixel()</h3>
-A primeira função implementada foi a PutPixel, ela rasteriza um ponto na memória de vídeo recebendo como parâmetros as coordenadas (x,y) do pixel e sua cor (RGBA).
-Para demonstrar sua implementação, deixamos as outras funções do código comentadas e rodamos apenas com o PutPixel. As coordenadas e cores escolhidas estão demonstradas nesse trecho de código e o resultado está abaixo: 
+<p>A primeira função implementada foi a PutPixel, ela rasteriza um ponto na memória de vídeo recebendo como parâmetros as coordenadas (x,y) do pixel e sua cor (RGBA).
+Para demonstrar sua implementação, deixamos as outras funções do código comentadas e rodamos apenas com o PutPixel. As coordenadas e cores escolhidas estão demonstradas nesse trecho de código e o resultado está abaixo: </p>
 >Pixel p1 = {100, 30, 255, 0, 0, 255}; // Red 
 >Pixel p2 = {150, 40, 0, 255, 0, 255}; // Green
 >Pixel p3 = {200, 50, 0, 0, 255, 255}; // Blue 
@@ -29,16 +29,18 @@ Para demonstrar sua implementação, deixamos as outras funções do código com
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png">
 
 <h3>2.DrawLine()</h3>
-Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de <b>interpolação linear</b> das cores nos vértices. 
+<p>Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de <b>interpolação linear</b> das cores nos vértices. </p>
 
 <h3>3.DrawTriangle()</h3>
-Por último foi implementado a função DrawTriangle, ela desenha as arestas de um triângulo na tela, recebendo como parâmetro as posições dos três vértices e suas cores. 
-A implementação dessa função foi bem simples, apenas definimos três pontos que seriam as arestas e chamamos a função DrawLine de forma que esses pontos se juntem para formar o triângulo. 
+<p>Por último foi implementado a função DrawTriangle, ela desenha as arestas de um triângulo na tela, recebendo como parâmetro as posições dos três vértices e suas cores. 
+A implementação dessa função foi bem simples, apenas definimos três pontos que seriam as arestas e chamamos a função DrawLine de forma que esses pontos se juntem para formar o triângulo. </p>
 
 <h3>4.Dificuldades</h3>
 
 <h3>5.Referências</h3>
-* Anotações de aula;
-* [Rasterização por João Manuel Brisson Lopes](disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf)
-* [Primitivas Gráficas por Prof. Jorge Cavalcanti (UNIVASF)](univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf)
+<ol>
+	<li>Anotações de aula;</li>
+	<li><a href="disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf">Rasterização por João Manuel Brisson Lopes</a></li>
+	<li><a href="univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf">Primitivas Gráficas por Prof. Jorge Cavalcanti (UNIVASF)</a></li>
+</ol>
 
