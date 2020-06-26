@@ -1,10 +1,10 @@
 <h1>Trabalho Prático 1</h1>
-Alunos: 
-	Giovanni Bruno Travassos de Carvalho - 11506849
-	Frederico Leal Montenegro - 20170143498
-Professor: 
-	Dr. Christian Azambuja Pagot
-<b>UFPB - 2019.4</b>
+<p>Alunos: </p>
+<p>	Giovanni Bruno Travassos de Carvalho - 11506849</p>
+<p>	Frederico Leal Montenegro - 20170143498</p>
+<p>Professor: </p>
+<p>	Dr. Christian Azambuja Pagot</p>
+<p><b>UFPB - 2019.4</b></p>
 
 <h2>Sumário</h2>
 <ol>
