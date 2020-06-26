@@ -1,4 +1,4 @@
-#Trabalho Prático 1 
+<h1>Trabalho Prático 1</h1>
 Alunos: 
 	Giovanni Bruno Travassos de Carvalho - 11506849
 	Frederico Leal Montenegro - 20170143498
@@ -6,11 +6,11 @@ Professor:
 	Dr. Christian Azambuja Pagot
 **UFPB - 2019.4**
 
-##Rasterização 
+<h2>Rasterização</h2> 
 O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um [framework](https://github.com/capagot/icg/tree/master/mygl_framwork) que simula o acesso direto à memória de vídeo. 
 Foram implementadas 3 funções baseadas no algoritmo de **Bresenham**, para rasterização de pontos, linhas e para criação de um triângulo. 
 
-###1.PutPixel()
+<h3>1.PutPixel()</h3>
 A primeira função implementada foi a PutPixel, ela rasteriza um ponto na memória de vídeo recebendo como parâmetros as coordenadas (x,y) do pixel e sua cor (RGBA).
 Para demonstrar sua implementação, deixamos as outras funções do código comentadas e rodamos apenas com o PutPixel. As coordenadas e cores escolhidas estão demonstradas nesse trecho de código e o resultado está abaixo: 
 >Pixel p1 = {100, 30, 255, 0, 0, 255}; // Red 
@@ -20,16 +20,16 @@ Para demonstrar sua implementação, deixamos as outras funções do código com
 >Pixel p5 = {300, 70, 255, 255, 0, 255}; // Yellow
 ![	](https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png)
 
-###2.DrawLine()
+<h3>2.DrawLine()</h3>
 Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de **interpolação linear** das cores nos vértices. 
 
-###3.DrawTriangle()
+<h3>3.DrawTriangle()</h3>
 Por último foi implementado a função DrawTriangle, ela desenha as arestas de um triângulo na tela, recebendo como parâmetro as posições dos três vértices e suas cores. 
 A implementação dessa função foi bem simples, apenas definimos três pontos que seriam as arestas e chamamos a função DrawLine de forma que esses pontos se juntem para formar o triângulo. 
 
-###4.Dificuldades 
+<h3>4.Dificuldades</h3>
 
-###5.Referências 
+<h3>5.Referências</h3>
 * Anotações de aula;
 * [Rasterização por João Manuel Brisson Lopes](disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf)
 * [Primitivas Gráficas por Prof. Jorge Cavalcanti (UNIVASF)](univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf)
