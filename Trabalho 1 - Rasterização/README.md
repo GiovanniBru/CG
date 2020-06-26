@@ -1,9 +1,8 @@
 <h1>Trabalho Prático 1</h1>
-<p>Alunos: </p>
+<p><b>Alunos:</b> </p>
 <p>	Giovanni Bruno Travassos de Carvalho - 11506849</p>
 <p>	Frederico Leal Montenegro - 20170143498</p>
-<p>Professor: </p>
-<p>	Dr. Christian Azambuja Pagot</p>
+<p><b>Professor:</b>Dr. Christian Azambuja Pagot</p>
 <p><b>UFPB - 2019.4</b></p>
 
 <h2>Sumário</h2>
@@ -16,7 +15,7 @@
 </ol>
 
 <h2>Rasterização</h2> 
-O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um [framework](https://github.com/capagot/icg/tree/master/mygl_framwork) que simula o acesso direto à memória de vídeo. 
+O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um <a href="https://github.com/capagot/icg/tree/master/mygl_framwork">framework</a> que simula o acesso direto à memória de vídeo. 
 Foram implementadas 3 funções baseadas no algoritmo de <b>Bresenham</b>, para rasterização de pontos, linhas e para criação de um triângulo. 
 
 <h3>1.PutPixel()</h3>
