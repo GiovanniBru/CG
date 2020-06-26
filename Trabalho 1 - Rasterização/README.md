@@ -15,7 +15,7 @@
 </ol>
 
 <h2>Rasterização</h2> 
-<p>  O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um <a href="https://github.com/capagot/icg/tree/master/mygl_framwork">framework</a> que simula o acesso direto à memória de vídeo. </p>
+<p>  O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um <a href="https://github.com/capagot/icg/tree/master/mygl_framework">framework</a> que simula o acesso direto à memória de vídeo. </p>
 <p> Foram implementadas 3 funções baseadas no algoritmo de <b>Bresenham</b>, para rasterização de pontos, linhas e para criação de um triângulo. </p>
 
 <h3>1.PutPixel()</h3>
