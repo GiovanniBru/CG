@@ -6,6 +6,15 @@ Professor:
 	Dr. Christian Azambuja Pagot
 **UFPB - 2019.4**
 
+<h2>Sumário</h2>
+<ol>
+	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#1putpixel">Função PutPixel</a></li>
+	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#2drawline">Função DrawLine</a></li>
+	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#3drawtriangle">Função DrawTriangle</a></li>
+	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#4dificuldades">Dificuldades</a></li>
+	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#5refer%C3%AAncias">Referências</a></li>
+</ol>
+
 <h2>Rasterização</h2> 
 O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um [framework](https://github.com/capagot/icg/tree/master/mygl_framwork) que simula o acesso direto à memória de vídeo. 
 Foram implementadas 3 funções baseadas no algoritmo de **Bresenham**, para rasterização de pontos, linhas e para criação de um triângulo. 
