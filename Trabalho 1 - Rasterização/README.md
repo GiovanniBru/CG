@@ -4,7 +4,7 @@ Alunos:
 	Frederico Leal Montenegro - 20170143498
 Professor: 
 	Dr. Christian Azambuja Pagot
-**UFPB - 2019.4**
+<b>UFPB - 2019.4</b>
 
 <h2>Sumário</h2>
 <ol>
@@ -17,7 +17,7 @@ Professor:
 
 <h2>Rasterização</h2> 
 O trabalho prático tem como objetivo desenvolver alguns algoritmos fundamentais utilizados em Computação Gráfica, como rasterização de pontos e linhas. Foi disponibilizado pelo professor, um [framework](https://github.com/capagot/icg/tree/master/mygl_framwork) que simula o acesso direto à memória de vídeo. 
-Foram implementadas 3 funções baseadas no algoritmo de **Bresenham**, para rasterização de pontos, linhas e para criação de um triângulo. 
+Foram implementadas 3 funções baseadas no algoritmo de <b>Bresenham</b>, para rasterização de pontos, linhas e para criação de um triângulo. 
 
 <h3>1.PutPixel()</h3>
 A primeira função implementada foi a PutPixel, ela rasteriza um ponto na memória de vídeo recebendo como parâmetros as coordenadas (x,y) do pixel e sua cor (RGBA).
@@ -30,7 +30,7 @@ Para demonstrar sua implementação, deixamos as outras funções do código com
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png">
 
 <h3>2.DrawLine()</h3>
-Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de **interpolação linear** das cores nos vértices. 
+Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de <b>interpolação linear</b> das cores nos vértices. 
 
 <h3>3.DrawTriangle()</h3>
 Por último foi implementado a função DrawTriangle, ela desenha as arestas de um triângulo na tela, recebendo como parâmetro as posições dos três vértices e suas cores. 
