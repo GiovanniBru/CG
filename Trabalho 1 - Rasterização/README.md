@@ -11,6 +11,7 @@
 	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#2drawline">Função DrawLine</a></li>
 	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#3drawtriangle">Função DrawTriangle</a></li>
 	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#4dificuldades">Dificuldades</a></li>
+	<li><a href="https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/README.md#-5conclus%C3%A3o-">Conclusão</a></li>
 	<li><a href="https://github.com/GiovanniBru/CG/tree/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o#5refer%C3%AAncias">Referências</a></li>
 </ol>
 
@@ -45,7 +46,7 @@ A implementação dessa função foi bem simples, apenas definimos três pontos 
 Os objetivos do trabalho foram alcançados: desenhar um ponto na tela, desenhar/rasterizar um reta que não se limitasse ao primeiro octante, e criar um triângulo a partir da reta. 
 <h3>6.Referências</h3>
 <ol>
-	<li>Anotações de aula;</li>
+	<li>Anotações de aula</li>
 	<li><a href="https://disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf">Rasterização por João Manuel Brisson Lopes</a></li>
 	<li><a href="https://univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf">Primitivas Gráficas por Prof. Jorge Cavalcanti (UNIVASF)</a></li>
 </ol>
