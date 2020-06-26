@@ -18,7 +18,7 @@ Para demonstrar sua implementação, deixamos as outras funções do código com
 >Pixel p3 = {200, 50, 0, 0, 255, 255}; // Blue 
 >Pixel p4 = {250, 60, 255, 255, 255, 255}; // White
 >Pixel p5 = {300, 70, 255, 255, 0, 255}; // Yellow
-![	](https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png)
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png">
 
 <h3>2.DrawLine()</h3>
 Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de **interpolação linear** das cores nos vértices. 
