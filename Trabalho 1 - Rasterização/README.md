@@ -21,11 +21,13 @@
 <h3>1.PutPixel()</h3>
 <p>A primeira função implementada foi a PutPixel, ela rasteriza um ponto na memória de vídeo recebendo como parâmetros as coordenadas (x,y) do pixel e sua cor (RGBA).
 Para demonstrar sua implementação, deixamos as outras funções do código comentadas e rodamos apenas com o PutPixel. As coordenadas e cores escolhidas estão demonstradas nesse trecho de código e o resultado está abaixo: </p>
->Pixel p1 = {100, 30, 255, 0, 0, 255}; // Red 
->Pixel p2 = {150, 40, 0, 255, 0, 255}; // Green
->Pixel p3 = {200, 50, 0, 0, 255, 255}; // Blue 
->Pixel p4 = {250, 60, 255, 255, 255, 255}; // White
->Pixel p5 = {300, 70, 255, 255, 0, 255}; // Yellow
+<blockquote>
+	<p>Pixel p1 = {100, 30, 255, 0, 0, 255}; // Red </p>
+	<p>Pixel p2 = {150, 40, 0, 255, 0, 255}; // Green</p>
+	<p>Pixel p3 = {200, 50, 0, 0, 255, 255}; // Blue </p>
+	<p>Pixel p4 = {250, 60, 255, 255, 255, 255}; // White</p>
+	<p>Pixel p5 = {300, 70, 255, 255, 0, 255}; // Yellow</p>
+</blockquote>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png">
 
 <h3>2.DrawLine()</h3>
