@@ -40,7 +40,7 @@ A implementação dessa função foi bem simples, apenas definimos três pontos 
 <h3>5.Referências</h3>
 <ol>
 	<li>Anotações de aula;</li>
-	<li><a href="disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf">Rasterização por João Manuel Brisson Lopes</a></li>
-	<li><a href="univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf">Primitivas Gráficas por Prof. Jorge Cavalcanti (UNIVASF)</a></li>
+	<li><a href="https://disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf">Rasterização por João Manuel Brisson Lopes</a></li>
+	<li><a href="https://univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf">Primitivas Gráficas por Prof. Jorge Cavalcanti (UNIVASF)</a></li>
 </ol>
 
