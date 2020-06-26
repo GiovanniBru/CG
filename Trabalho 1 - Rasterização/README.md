@@ -38,8 +38,12 @@ Para demonstrar sua implementação deixamos as outras funções do código come
 A implementação dessa função foi bem simples, apenas definimos três pontos que seriam as arestas e chamamos a função DrawLine de forma que esses pontos se juntem para formar o triângulo. </p>
 
 <h3>4.Dificuldades</h3>
+<p> O algoritmo de Bresenham é 'limitado' ao primeiro octante, a maior dificuldade da implementação foi generalizar o algoritmo para que ele funcionasse em qualquer ângulo(octante). </p> 
+<p> A solução encontrada </p>
 
-<h3>5.Referências</h3>
+<h3> 5.Conclusão </h3> 
+Os objetivos do trabalho foram alcançados: desenhar um ponto na tela, desenhar/rasterizar um reta que não se limitasse ao primeiro octante, e criar um triângulo a partir da reta. 
+<h3>6.Referências</h3>
 <ol>
 	<li>Anotações de aula;</li>
 	<li><a href="https://disciplinas.ist.utl.pt/leic-cg/textos/livro/Rasterizacao.pdf">Rasterização por João Manuel Brisson Lopes</a></li>
