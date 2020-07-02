@@ -49,13 +49,17 @@ Para demonstrar sua implementação deixamos as outras funções do código come
 <h3>3.DrawTriangle()</h3>
 <p>Por último foi implementado a função DrawTriangle, ela desenha as arestas de um triângulo na tela, recebendo como parâmetro as posições dos três vértices e suas cores. 
 A implementação dessa função foi bem simples, apenas definimos três pontos que seriam as arestas e chamamos a função DrawLine de forma que esses pontos se juntem para formar o triângulo. </p>
+<blockquote>
+	<p>DrawTriangle(p1,p2,p3);</p>
+	<p>DrawTriangle(p4,p5,p6);</p>
+</blockquote>
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/DrawTriangle.png">
 
 <h3>4.Dificuldades</h3>
 <p> O algoritmo de Bresenham é 'limitado' ao primeiro octante, a maior dificuldade da implementação foi generalizar o algoritmo para que ele funcionasse em qualquer ângulo(octante). </p> 
-<p> A solução encontrada </p>
 
 <h3> 5.Conclusão </h3> 
-Os objetivos do trabalho foram alcançados: desenhar um ponto na tela, desenhar/rasterizar um reta que não se limitasse ao primeiro octante, e criar um triângulo a partir da reta. 
+Os objetivos do trabalho foram alcançados: desenhar um ponto na tela, desenhar/rasterizar um reta que não se limitasse ao primeiro octante, e criar um triângulo a partir da reta. Porém não conseguimos fazer a cor variar durante a reta, e é um objetivo de melhora do projeto. 
 <h3>6.Referências</h3>
 <ol>
 	<li>Anotações de aula</li>
