@@ -32,7 +32,19 @@ Para demonstrar sua implementação deixamos as outras funções do código come
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/PutPixel.png">
 
 <h3>2.DrawLine()</h3>
-<p>Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de <b>interpolação linear</b> das cores nos vértices. Para demonstrar sua implementação deixamos as outras funções do código comentadas e rodamos apenas com o DrawLine, o resultado foi: </p>
+<p>Esta função rasteriza uma linha reta na tela, recebendo como parâmetros de entrada as coordenadas dos vértices inicial e final e suas cores. As cores dos pixels ao longo da linha rasterizada são obtidas por meio de <b>interpolação linear</b> das cores nos vértices. Para demonstrar sua implementação deixamos as outras funções do código comentadas e rodamos apenas com o DrawLine, o as coordenadas usadas no exemplo e seu resultado estão logo abaixo. </p>
+<blockquote>
+	<p>Pixel p1 = {60, 30, 255, 0, 0, 255}; // Red </p>
+	<p>Pixel p2 = {256, 256, 0, 255, 0, 255}; // Green</p>
+	<p>Pixel p3 = {180, 30, 0, 0, 255, 255}; // Blue </p>
+	<p>Pixel p4 = {500, 485, 255, 255, 255, 255}; // White</p>
+	<p>Pixel p5 = {295, 350, 255, 255, 0, 255}; // Yellow</p>
+	<p>Pixel p6 = {128, 450, 80, 99, 70, 255}; // Random</p>
+	<p>DrawLine(p1,p2);</p>
+	<p>DrawLine(p3,p4);</p>
+	<p>DrawLine(p5,p6);</p>
+</blockquote>
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%201%20-%20Rasteriza%C3%A7%C3%A3o/imagens/DrawLine.png">
 
 <h3>3.DrawTriangle()</h3>
 <p>Por último foi implementado a função DrawTriangle, ela desenha as arestas de um triângulo na tela, recebendo como parâmetro as posições dos três vértices e suas cores. 
