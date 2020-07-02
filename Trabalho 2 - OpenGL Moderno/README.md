@@ -12,4 +12,4 @@
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%202%20-%20OpenGL%20Moderno/imagens/Solucao.PNG">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%202%20-%20OpenGL%20Moderno/imagens/Resultado.PNG">
 <h4>Vídeo da Resolução</h4>
-<iframe src="https://www.youtube.com/embed/XzlF-wgSp_I" ></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XzlF-wgSp_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
