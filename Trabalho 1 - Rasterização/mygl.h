@@ -18,10 +18,10 @@ typedef struct Pixel{
 // Declaração da função que chamará as funções implementadas pelo aluno
 void MyGlDraw(void);
 
-void PutPixel();
+void PutPixel(Pixel);
 
-//void DrawLine();
+void DrawLine(Pixel, Pixel);
 
-//void DrawTriangle();
+void DrawTriangle(Pixel,Pixel,Pixel);
 
 #endif  // MYGL_H
