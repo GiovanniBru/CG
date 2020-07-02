@@ -13,4 +13,3 @@
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%202%20-%20OpenGL%20Moderno/imagens/Resultado.PNG">
 <h4>Vídeo da Resolução</h4>
 <li><a href="https://www.youtube.com/embed/XzlF-wgSp_I">Link para vídeo no YouTube</a></li>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XzlF-wgSp_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
