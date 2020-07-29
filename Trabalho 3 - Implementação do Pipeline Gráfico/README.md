@@ -43,7 +43,11 @@
 <p> A terceira atividade consistiu em modificar a matriz <i>Projection</i>, que é utilizada na transição do espaço da câmera para o espaço de recorte. A matriz de projeção original e o resultado esperado pelo professor são: </p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/matriz-projection.PNG">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-prof.PNG">
-
+<p> A matriz de projeção uttilizada foi a estudada em sala, mostrada a seguir, onde o valor de <b>d</b> é a distância do centro de projeção até a origem do sistema de coordenadas da câmera. </p>
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/projection.PNG">
+<p>Para obter o resultado esperado, colocamos <b>d</b> = 1/2 e aplicamos a matriz de projeção nova. Assim o resultado da matriz e da imagem de saída foram, respectivamente: </p>
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-matriz.jpeg">
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-resultado.PNG">
 
 <h2>Atividade 4 - Posição da Câmera</h2>
 <p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera.   </p>
