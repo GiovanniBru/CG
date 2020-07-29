@@ -8,11 +8,11 @@
 <h2> Sumário </h2> 
 <ol>
 	<li><a href="">Introdução</a></li>
-	<li><a href="">1 - Escala</a></li>
-	<li><a href="">2 - Translação</a></li>
-	<li><a href="">3 - Projeção Perspectiva</a></li>
-	<li><a href="">4 - Posição da Câmera</a></li>
-	<li><a href="">5 - Transformações Livres</a></li>
+	<li><a href="">Escala</a></li>
+	<li><a href="">Translação</a></li>
+	<li><a href="">Projeção Perspectiva</a></li>
+	<li><a href="">Posição da Câmera</a></li>
+	<li><a href="">Transformações Livres</a></li>
 	<li><a href="">Referências</a></li>
 </ol>
 
