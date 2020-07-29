@@ -26,7 +26,7 @@
 <p>A matriz <i>Model</i> usada como base e o resultado esperado pelo professor são:</p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG">
-<p>Foi aplicado uma matriz de transformação 3x1, com os valores x, y, z e w sendo 0.33, 1,5, 1 e 1, respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
+<p>Foi aplicado uma matriz de transformação 4x1, com os valores x, y, z e w sendo 0.33, 1,5, 1 e 1, respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-matriz.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-resultado.PNG">
 
