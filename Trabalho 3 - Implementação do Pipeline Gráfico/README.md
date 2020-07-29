@@ -1,0 +1,39 @@
+<h1> Implementação do Pipeline Gráfico </h1>
+<p><b>Alunos:</b> </p>
+<p>&nbsp;&nbsp;&nbsp; Giovanni Bruno Travassos de Carvalho - 11506849</p>
+<p>&nbsp;&nbsp;&nbsp;	Frederico Leal Montenegro - 20170143498</p>
+<p><b>Professor:</b>&nbsp;&nbsp; Dr. Christian Azambuja Pagot</p>
+<p><b>UFPB - 2019.4</b></p>
+
+<h2> Sumário </h2> 
+<ol>
+	<li><a href="">Introdução</a></li>
+	<li><a href="">1 - Escala</a></li>
+	<li><a href="">2 - Translação</a></li>
+	<li><a href="">3 - Projeção Perspectiva</a></li>
+	<li><a href="">4 - Posição da Câmera</a></li>
+	<li><a href="">5 - Transformações Livres</a></li>
+	<li><a href="">Referências</a></li>
+</ol>
+
+<h2>Introdução</h2>
+<p>O objetivo desse trabalho foi de nos familiarizarmos com a estrutura do pipeline gráfico através da implementação de transformações geométricas que o compõem. Esta implementação foi feita com auxílio da biblioteca <b>glm</b> e sua execução ocorreu nos <i>shaders</i> do OpenGL.</p>
+<p>A atividade consistiu em alterar, no programa template disponibilizado pelo professor, os conteúdos das matrizes <i>Mmodel, Mview e Mprojection</i> de forma que o programa gere imagens especificadas.</p>
+
+<h2>1 - Escala</h2>
+<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. </p>
+
+<h2>2 - Translação</h2>
+<p> A segunda atividade consistiu em transladar os triângulos para direita. A alteração feita na matriz <i>Model</i> foi: </p>
+
+<h2>3 - Projeção Perspectiva</h2>
+<p> A terceira atividade consistiu em modificar a matriz <i>Projection</i> </p>
+
+<h2>4 - Posição da Câmera</h2>
+<p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>   </p>
+
+<h2>5 - Transformações Livres</h2>
+<p>    </p> 
+
+<h2>Referências</h2>
+
