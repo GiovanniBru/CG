@@ -26,7 +26,7 @@
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG">
 <p>Foi aplicado uma matriz de transformação 4x1, com os valores (x, y, z, w) sendo (1/3, 3/2, 1, 1), respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-matriz.jpeg">
+<img src = "">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-resultado.PNG">
 
 <h2>Atividade 2 - Translação</h2>
