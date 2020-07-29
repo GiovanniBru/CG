@@ -21,7 +21,7 @@
 <p>A atividade consistiu em alterar, no programa template disponibilizado pelo professor, os conteúdos das matrizes <i>Mmodel, Mview e Mprojection</i> de forma que o programa gere imagens especificadas.</p>
 
 <h2>1 - Escala</h2>
-<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. </p>
+<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo, para obter o resultado esperado modificamos os fatores de escala em (x,y,z) para (1/3, 3/2, 1) respectivamente. </p>
 
 <h2>2 - Translação</h2>
 <p> A segunda atividade consistiu em transladar os triângulos para direita. A alteração feita na matriz <i>Model</i> foi: </p>
