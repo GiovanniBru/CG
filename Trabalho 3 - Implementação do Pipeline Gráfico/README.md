@@ -27,11 +27,11 @@
 <h2>Atividade 2 - Translação</h2>
 <p> A segunda atividade consistiu em transladar os triângulos para direita. A translação pode ser feita de duas formas para obter o resultado esperado: modificando a matriz <i>Model</i>, transladando os objetos; ou modificando a matriz <i>View</i>, transladando a câmera. Porém a questão pede que seja modificada a matriz <i>Model</i>.     </p>
 <p>Na imagem abaixo temos o resultado esperado pelo professor e a matriz <i>Model</i> usada como base para resolução. </p>
-<img src = "">
-<img src = "">
-<p>Agora esta foi a alteração feita na matriz, e o resultado obtido.</p>
-<img src = "">
-<img src = "">
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-prof.PNG">
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
+<p>Agora esta foi a alteração feita na matriz, e o resultado obtido: </p>
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-matriz.jpg">
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-resultado.PNG">
 
 <h2>Atividade 3 - Projeção Perspectiva</h2>
 <p> A terceira atividade consistiu em modificar a matriz <i>Projection</i>, que é utilizada na transição do espaço da câmera para o espaço de recorte. </p>
