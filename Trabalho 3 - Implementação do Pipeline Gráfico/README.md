@@ -22,8 +22,7 @@
 <p>A atividade consistiu em alterar, no programa template disponibilizado pelo professor, os conteúdos das matrizes <i>Mmodel, Mview e Mprojection</i> de forma que o programa gere imagens especificadas.</p>
 
 <h2>Atividade 1 - Escala</h2>
-<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo. </p>
-<p>A matriz <i>Model</i> usada como base e o resultado esperado pelo professor são:</p>
+<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo. A matriz <i>Model</i> usada como base e o resultado esperado pelo professor são:</p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG">
 <p>Foi aplicado uma matriz de transformação 4x1, com os valores (x, y, z, w) sendo (1/3, 3/2, 1, 1), respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
@@ -31,8 +30,7 @@
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-resultado.PNG">
 
 <h2>Atividade 2 - Translação</h2>
-<p> A segunda atividade consistiu em transladar os triângulos para direita. A translação pode ser feita de duas formas para obter o resultado esperado: modificando a matriz <i>Model</i>, transladando os objetos; ou modificando a matriz <i>View</i>, transladando a câmera. Porém a questão pede que seja modificada a matriz <i>Model</i>.     </p>
-<p>Na imagem abaixo temos o resultado esperado pelo professor e a matriz <i>Model</i> usada como base para resolução. </p>
+<p> A segunda atividade consistiu em transladar os triângulos para direita. A translação pode ser feita de duas formas para obter o resultado esperado: modificando a matriz <i>Model</i>, transladando os objetos; ou modificando a matriz <i>View</i>, transladando a câmera. Porém a questão pede que seja modificada a matriz <i>Model</i>. Na imagem abaixo temos o resultado esperado pelo professor e a matriz <i>Model</i> usada como base para resolução. </p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-prof.PNG">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
 <p>Para obter o resultado esperado, foi aplicado na <i>Model</i> uma matriz de transformação mostrada a seguir, retirada do <i>header</i> "matrix_transform.hpp" do <b>glm</b>.  </p>
@@ -42,7 +40,11 @@
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-resultado.PNG">
 
 <h2>Atividade 3 - Projeção Perspectiva</h2>
-<p> A terceira atividade consistiu em modificar a matriz <i>Projection</i>, que é utilizada na transição do espaço da câmera para o espaço de recorte. </p>
+<p> A terceira atividade consistiu em modificar a matriz <i>Projection</i>, que é utilizada na transição do espaço da câmera para o espaço de recorte. A matriz de projeção original e o resultado esperado pelo professor são: </p>
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/matriz-projection.PNG
+">
+<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-prof.PNG">
+
 
 <h2>Atividade 4 - Posição da Câmera</h2>
 <p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera.   </p>
