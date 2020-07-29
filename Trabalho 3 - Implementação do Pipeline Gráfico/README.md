@@ -22,11 +22,11 @@
 <p>A atividade consistiu em alterar, no programa template disponibilizado pelo professor, os conteúdos das matrizes <i>Mmodel, Mview e Mprojection</i> de forma que o programa gere imagens especificadas.</p>
 
 <h2>Atividade 1 - Escala</h2>
-<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo, para obter o resultado esperado multiplicamos a matriz original pelos fatores de escala (1/3, 3/2, 1) para (x, y, z) respectivamente. </p>
+<p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo. </p>
 <p>A matriz <i>Model</i> usada como base e o resultado esperado pelo professor são:</p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG">
-<p>Foi aplicado uma matriz de transformação 3x1, com os valores x, y e z sendo 0.33, 1,5 e 1, respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
+<p>Foi aplicado uma matriz de transformação 3x1, com os valores x, y, z e w sendo 0.33, 1,5, 1 e 1, respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-matriz.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-resultado.PNG">
 
