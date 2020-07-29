@@ -24,13 +24,13 @@
 <p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo, para obter o resultado esperado modificamos os fatores de escala em (x,y,z) para (1/3, 3/2, 1) respectivamente. </p>
 
 <h2>2 - Translação</h2>
-<p> A segunda atividade consistiu em transladar os triângulos para direita. A alteração feita na matriz <i>Model</i> foi: </p>
+<p> A segunda atividade consistiu em transladar os triângulos para direita. A alteração novamente foi feita na matriz <i>Model</i> </p>
 
 <h2>3 - Projeção Perspectiva</h2>
-<p> A terceira atividade consistiu em modificar a matriz <i>Projection</i> </p>
+<p> A terceira atividade consistiu em modificar a matriz <i>Projection</i>, que é utilizada na transição do espaço da câmera para o espaço de recorte. </p>
 
 <h2>4 - Posição da Câmera</h2>
-<p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>   </p>
+<p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera.   </p>
 
 <h2>5 - Transformações Livres</h2>
 <p>    </p> 
