@@ -48,7 +48,7 @@
 <p>Para obter o resultado esperado, colocamos <b>d</b> = 1/2 e aplicamos a matriz de projeção nova. Assim o resultado da matriz e da imagem de saída foram, respectivamente: </p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-matriz.jpeg">
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-resultado.PNG">
-
+<p>Podemos observar que com o valor de <b>d</b> pequeno, sendo 0,5 no exemplo, obtivemos um efeito em que os objetos mais distântes da câmera ficaram menores e os objetos mais próximos ficaram maiores, pois quanto menor o <b>d</b> maior será a distorção perspectiva e o ângulo de abertura da câmera. </p>  
 
 <h2>Atividade 4 - Posição da Câmera</h2>
 <p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera.   </p>
