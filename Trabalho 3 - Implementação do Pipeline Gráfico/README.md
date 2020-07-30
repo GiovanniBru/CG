@@ -24,31 +24,46 @@
 <h2>Atividade 1 - Escala</h2>
 <p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo. A matriz <i>Model</i> usada como base e o resultado esperado pelo professor são:</p>
 <p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg"></p>
-<p align="center">Figura 1 - Matriz Model Base</p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG">
+<p align="center">Figura 1 - Matriz Model Original</p>
+
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG"></p>
+<p align="center">Figura 2 - Resultado esperado </p>
+
 <p>Foi aplicado uma matriz de transformação 4x1, com os valores (x, y, z, w) sendo (1/3, 3/2, 1, 1), respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-matriz.PNG">
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-resultado.PNG">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-matriz.PNG"></p>
+<p align="center">Figura 3 - Matriz resultante</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-resultado.PNG"></p>
+<p align="center">Figura 4 - Resultado obtido</p>
 
 <h2>Atividade 2 - Translação</h2>
 <p> A segunda atividade consistiu em transladar os triângulos para direita. A translação pode ser feita de duas formas para obter o resultado esperado: modificando a matriz <i>Model</i>, transladando os objetos; ou modificando a matriz <i>View</i>, transladando a câmera. Porém a questão pede que seja modificada a matriz <i>Model</i>. Na imagem abaixo temos o resultado esperado pelo professor e a matriz <i>Model</i> usada como base para resolução. </p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-prof.PNG">
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-prof.PNG"></p>
+<p align="center">Figura 5 - Resultado esperado </p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg"></p>
+<p align="center">Figura 6 - Matriz Model Original</p>
 <p>Para obter o resultado esperado, foi aplicado na <i>Model</i> uma matriz de transformação mostrada a seguir, retirada do <i>header</i> "matrix_transform.hpp" do <b>glm</b>.  </p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-transform.jpg">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-transform.jpg"></p>
+<p align="center">Figura 7 - Matriz de transformação</p>
 <p>Colocando o fator de transformação na matriz obtida, tivemos o seguinte resultado na matriz e na imagem de saída: </p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-matriz.jpg">
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-resultado.PNG">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-matriz.jpg"></p>
+<p align="center">Figura 8 - Matriz resultante</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ2-resultado.PNG"></p>
+<p align="center">Figura 9 - Resultado obtido</p>
 
 <h2>Atividade 3 - Projeção Perspectiva</h2>
 <p> A terceira atividade consistiu em modificar a matriz <i>Projection</i>, que é utilizada na transição do espaço da câmera para o espaço de recorte. A matriz de projeção original e o resultado esperado pelo professor são: </p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/matriz-projection.PNG">
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-prof.PNG">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/matriz-projection.PNG"></p>
+<p align="center">Figura 10 - Matriz de Projeção Original</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-prof.PNG"></p>
+<p align="center">Figura 11 - Resultado esperado</p>
 <p> A matriz de projeção utilizada foi a estudada em sala, mostrada a seguir, onde o valor de <b>d</b> é a distância do centro de projeção até a origem do sistema de coordenadas da câmera. </p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/projection.PNG">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/projection.PNG"></p>
+<p align="center">Figura 12 - Matriz de Projeção</p>
 <p>Para obter o resultado esperado, colocamos <b>d</b> = 1/2 e aplicamos a matriz de projeção nova. Assim o resultado da matriz e da imagem de saída foram, respectivamente: </p>
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-matriz.jpeg">
-<img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-resultado.PNG">
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-matriz.jpeg"></p>
+<p align="center">Figura 13 - Matriz obtida</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ3-resultado.PNG"></p>
+<p align="center">Figura 14 - Resultado obtido para d=1/2</p>
 <p>Podemos observar que com o valor de <b>d</b> pequeno, sendo 0,5 no exemplo, obtivemos um efeito em que os objetos mais distântes da câmera ficaram menores e os objetos mais próximos ficaram maiores, pois quanto menor o <b>d</b> maior será a distorção perspectiva e o ângulo de abertura da câmera. </p>  
 
 <h2>Atividade 4 - Posição da Câmera</h2>
