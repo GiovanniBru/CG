@@ -68,12 +68,19 @@
 
 <h2>Atividade 4 - Posição da Câmera</h2>
 <p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera. O exercício teve que ser feito mantendo a distorção perspectiva obtida na matriz de projeção da Atividade 3.    </p>
-
+<p> Para realização desse exercício, foi necessário definir os vetores da base do espaço da câmera, considerando os dados fornecidos na questão: Posição da câmera = (-1/10, 1/10, 1/4); vetor <i>UP</i> da câmera = (0,1,0); ponto para o qual a câmera aponta = (0,0,0). </p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ4-prof.PNG"></p>
+<p align="center">Figura 15 - Resultado esperado</p>
+<p> Após a construção dos vetores de base, é necessário construir a matriz <b>B</b> da base da câmera e invertê-la, calculando sua transposta. Em seguida, construir a matriz <b>T</b> que translada a base da câmera, fazendo sua origem coincidir com a do espaço do universo. A nova matriz <i>View</i> será o produto das matrizes <b>B</b> transposta e <b>T</b>, para obter o resultado final esperado devemos aplica-la nos vértices do triângulo.</p> 
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ4-code.jpeg"></p>
+<p align="center">Figura 16 - Código da Matriz <i>View</i></p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ4-resultado.jpeg"></p>
+<p align="center">Figura 17 - Resultado obtido</p>
+	
 <h2>Atividade 5 - Transformações Livres</h2>
 <p>    </p> 
 
 <h2>Problemas Encontrados</h2>
 
 <h2>Referências</h2>
-
 <img src = "">
