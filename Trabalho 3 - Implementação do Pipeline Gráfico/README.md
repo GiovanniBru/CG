@@ -103,7 +103,7 @@
 <p align="center">Figura 24 - Exportação do OpenGL 3.3</p>
 <p><b>Windows:</b> A execução no Windows foi por meio do VSCode, nele tivemos que mudar a chamada das bibliotecas, igual ao Ubuntu. Também foi adicionado a função <i>pragma</i> para ignorar a notificação de segurança.  </p>
 <p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/pramga.jpg"></p>
-<p align="center"><img src = "Figura 25 - Função Pragma "></p>
+<p align="center">Figura 25 - Função Pragma </p>
 
 <h2>Referências</h2>
 <li><a href="https://glm.g-truc.net/0.9.9/index.html">GLM</a></li>
