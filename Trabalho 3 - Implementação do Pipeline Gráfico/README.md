@@ -78,9 +78,24 @@
 <p align="center">Figura 17 - Resultado obtido</p>
 	
 <h2>Atividade 5 - Transformações Livres</h2>
-<p>    </p> 
+<p>A última atividade foi livre, onde podemos transformar as matriz <i>Model</i>, <i>View</i> e <i>Projection</i> da maneira que quisessemos, sem repetir implementações feitas anteriormente.  </p> 
+<p><b>Cor:</b> Inicialmente fizemos uma mudança na cor dos triângulos, deixado o mais distânte em um tom alaranjado e o mais próximo verde.</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ5-cores.jpeg"></p>	
+<p align="center">Figura 18 - Código da cor dos triângulos</p>
+<p><b>Model:</b> A modificação feita na matriz <i>Model</i> foi de aumentar o X em 50% (1.5f) fazendo a imagem ficar mais larga, e diminuir o Y em 20% (0.8f) fazendo a imagem ficar mais achatada. </p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ5-model.jpeg"></p>
+<p align="center">Figura 19 - Matriz <i>Model</i> </p>
+<p><b>View:</b> Na matriz <i>View</i> foi acrescido 0.1 em X, levando a um pouco mais pra direita, e 0,6 em Y, levando a imagem pra cima.</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ5-view.jpeg"></p>
+<p align="center">Figura 20 - Matriz <i>View</i></p>
+<p><b>Projection:</b> Na matriz <i>Projection</i> usamos o <b>D</b>=1/3 para aumentar a distorção perspectiva,  e obtivemos a seguinte matriz:</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ5-projection.jpeg"></p>
+<p align="center">Figura 21 - Matriz <i>Projection</i></p>
+<p>Por fim a imagem obtida com essas quatro modificações foi:</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ5-resultado.jpeg"></p>
+<p align="center">Figura 22 - Imagem resultante</p>
 
 <h2>Problemas Encontrados</h2>
 
 <h2>Referências</h2>
-<img src = "">
+<p align="center"><img src = ""></p>
