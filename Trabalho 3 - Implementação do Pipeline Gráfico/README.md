@@ -23,8 +23,8 @@
 
 <h2>Atividade 1 - Escala</h2>
 <p> A primeira alteração feita foi na matriz <i>Model</i>, e teve como objetivo mudar a escala dos triângulos que aparecem na tela. A matriz <i>Model</i> é utilizada na transição do espaço do objeto para o espaço do universo. A matriz <i>Model</i> usada como base e o resultado esperado pelo professor são:</p>
-
 <p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/model-original.jpeg"></p>
+<p align="center">Figura 1 - Matriz Model Base</p>
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-prof.PNG">
 <p>Foi aplicado uma matriz de transformação 4x1, com os valores (x, y, z, w) sendo (1/3, 3/2, 1, 1), respectivamente, assim obtivemos a seguinte matriz resultante e a imagem de saída:</p> 
 <img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/ativ1-matriz.PNG">
