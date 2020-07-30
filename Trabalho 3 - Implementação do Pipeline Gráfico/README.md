@@ -109,4 +109,4 @@
 <li><a href="https://glm.g-truc.net/0.9.9/index.html">GLM</a></li>
 <li><a href="http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/">OpenGL Tutorial</a></li>
 
-<p align="center"><img src = ""></p>
+
