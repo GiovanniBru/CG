@@ -67,7 +67,7 @@
 <p>Podemos observar que com o valor de <b>d</b> pequeno, sendo 0,5 no exemplo, obtivemos um efeito em que os objetos mais distântes da câmera ficaram menores e os objetos mais próximos ficaram maiores, pois quanto menor o <b>d</b> maior será a distorção perspectiva e o ângulo de abertura da câmera. </p>  
 
 <h2>Atividade 4 - Posição da Câmera</h2>
-<p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera.   </p>
+<p> Nesta quarta atividade tivemos que modificar a matriz <i>View</i>, que é utilizada na transição do espaço do universo para o espaço da câmera. O exercício teve que ser feito mantendo a distorção perspectiva obtida na matriz de projeção da Atividade 3.    </p>
 
 <h2>Atividade 5 - Transformações Livres</h2>
 <p>    </p> 
