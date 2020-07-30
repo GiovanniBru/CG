@@ -108,5 +108,5 @@
 <h2>Referências</h2>
 <li><a href="https://glm.g-truc.net/0.9.9/index.html">GLM</a></li>
 <li><a href="http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/">OpenGL Tutorial</a></li>
-
+<li>Slides disponibilizados pelo Professor</li>
 
