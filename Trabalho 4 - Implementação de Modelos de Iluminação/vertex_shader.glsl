@@ -26,16 +26,16 @@ void main() {
 	vec3 N = normalize(mat3( transpose(inverse(model_mat))) * obj_spc_N); 
 	
 	// Questão 1 - Modelo de Reflexão Difuso 
-	float teta = dot(L,N); // Teta como produto escalar entre L e N 
-	I = I_a * k_a + I_p * k_d * teta; 
+	//float teta = dot(L,N); // Teta como produto escalar entre L e N 
+	//I = I_a * k_a + I_p * k_d * teta; 
 	
 	// Questão 2 - Modelo de Reflexão Especular (Phong)
 	float teta = max(dot(L,N), 0.0f);
-	// Criando vetores auxiliares X e Y para calcular Alpha 
-	vec3 X = - reflect(L,N);
-	vec3 Y = normalize(cam_pos - (model_mat * vec4(obj_spc_vertex_pos, 1.0)) .xyz);
-	// Fazendo Alpha ser o produto escalar entre X e Y 
-	float aux = max(dot(X,Y), 0.0f);
+	// Criando vetores auxiliares R(reflexão) e V(vetor da câmera) para calcular Alpha 
+	vec3 R = - reflect(L,N);
+	vec3 V = normalize(cam_pos - (model_mat * vec4(obj_spc_vertex_pos, 1.0)) .xyz);
+	// Fazendo Alpha ser o produto escalar entre R e V 
+	float aux = max(dot(R,V), 0.0f);
 	float alpha = (pow(aux,64)); // elevando alpha a 64
 	I = I_a * k_a + I_p *(k_d * teta + k_s * alpha);
 	
