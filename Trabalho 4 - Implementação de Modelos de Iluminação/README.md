@@ -16,3 +16,11 @@
 <p align="center">Figura 2 - Configuração Geométrica da Cena</p> 
 
 <h2>Exercício 1 - Modelo de Reflexão Difuso</h2> 
+
+
+<h2>Problemas Encontrados</h2>
+<p><b>Ubuntu:</b> Na execução feita no Ubuntu surgiu dois erros. O primeiro foi no acesso aos módulos do <b>glm</b>, e para resolvê-lo tive que mudar a maneira que importo as bibliotecas, como mostrado na Figura 23. O segundo foi na execução do código, ao executar o <i>make</i> o código compilava porém não aparecia a imagem na tela, para resolver isso tive que escrever o comando mostrado na Figura 24.</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/alteracao-include.jpeg"></p>
+<p align="center">Figura 23 - Alteração no Header</p>
+<p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%203%20-%20Implementa%C3%A7%C3%A3o%20do%20Pipeline%20Gr%C3%A1fico/Imagens/exportmesa.PNG"></p>
+<p align="center">Figura 24 - Exportação do OpenGL 3.3</p>
