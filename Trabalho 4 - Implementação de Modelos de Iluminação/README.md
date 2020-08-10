@@ -24,7 +24,8 @@
 <p align="center">Figura 4 - Modelo de Reflexão Difuso</p>
 
 <h2>Exercício 2 - Modelo de Reflexão Especular</h2> 
-<p> </p>
+<p>No segundo exercício tivemos que modificar o arquivo do <i>vertex shader</i>(vertex_shader.glsl) de forma que ele passe a incluir o modelo de iluminação <b>especular</b>. Para isso, foi necessário calcular novos vetores: <b>R</b> de reflexão da luz; e <b>V</b> que aponta do vértice em questão para câmera. Após calcular os novos vetores, calculamos o modelo de reflexão especular, com o valor de n=64. </p>
+<p>Utilizamos a fórmula base, disponibilizada como sugestão pelo professor, para fazer a função da Figura 5 dos novos vetores <b>R</b> e <b>V</b>, assim como o <b>Alpha</b>. Após isso, calculamos o modelo de iluminação especular <b>I</b> e obtemos o resultado mostrado na Figura 6.</p>
 <p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%204%20-%20Implementa%C3%A7%C3%A3o%20de%20Modelos%20de%20Ilumina%C3%A7%C3%A3o/Imagens/q2.PNG"></p>
 <p align="center">Figura 5 - Alterações adicionadas ao vertex_shader.glsl </p>
 <p align="center"><img src = "https://github.com/GiovanniBru/CG/blob/master/Trabalho%204%20-%20Implementa%C3%A7%C3%A3o%20de%20Modelos%20de%20Ilumina%C3%A7%C3%A3o/Imagens/Reflexao_Especular.PNG"></p>
