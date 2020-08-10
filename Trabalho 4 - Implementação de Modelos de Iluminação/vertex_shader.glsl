@@ -26,8 +26,8 @@ void main() {
 	vec3 N = normalize(mat3( transpose(inverse(model_mat))) * obj_spc_N); 
 	
 	// Questão 1 - Modelo de Reflexão Difuso 
-	//float teta = dot(L,N); // Teta como produto escalar entre L e N 
-	//I = I_a * k_a + I_p * k_d * teta; 
+	float teta = dot(L,N); // Teta como produto escalar entre L e N 
+	I = I_a * k_a + I_p * k_d * teta; 
 	
 	// Questão 2 - Modelo de Reflexão Especular (Phong)
 	float teta = max(dot(L,N), 0.0f);
